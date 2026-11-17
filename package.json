@@ -1,0 +1,25 @@
+{
+  "name": "red-accent-theme",
+  "publisher": "whatdoesthatdo",
+  "repository": {
+    "url": "https://github.com/what-does-that-do/red-accent-theme-vscode/"
+  },
+  "displayName": "Red-Accent-Theme",
+  "description": "Go from blue to red in VSCode.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.146.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Red Accent Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Red Accent Theme-color-theme.json"
+      }
+    ]
+  }
+}
